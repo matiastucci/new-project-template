@@ -26,7 +26,7 @@ export default class AppContainer extends React.Component {
       });
     } catch (e) {
       console.warn(
-        'There was an error caching assets (see: main.js), perhaps due to a ' +
+        'There was an error caching assets (see: App.js), perhaps due to a ' +
           'network timeout, so we skipped caching. Reload the app to try again.'
       );
       console.log(e.message);
